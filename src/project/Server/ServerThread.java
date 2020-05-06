@@ -17,7 +17,7 @@ public class ServerThread implements Runnable {
     private ResultSet resultSet = null;
     private String username = "root";
     private String password = "root";
-    private String URL = "jdbc:mysql://localhost:3306/clothes?serverTimezone=Europe/Moscow";
+    private String URL = "jdbc:mysql://localhost:3306/?serverTimezone=Europe/Moscow";
 
 
 
